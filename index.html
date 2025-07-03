@@ -1,1 +1,36 @@
 <p> HELLO</p>
+
+!Doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Local HTML</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        </head>
+    <body>
+        <h1>Local HTML File</h1>
+        <p>This is a simple HTML file served locally.</p>
+        <button id="clickMe">Click Me!</button>
+        <div id="output"></div>
+        <script>
+            document.getElementById('clickMe').addEventListener('click', function() {
+                document.getElementById('output').innerText = 'Button was clicked!';
+            });
+        </script>
+        </body>
+        </html>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Local HTML</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <h1>Local HTML File</h1>
+        <p>This is a simple HTML file served locally.</p>
+        <button id="clickMe">Click Me!</button>
+        <div id="output"></div>
+    </body>
